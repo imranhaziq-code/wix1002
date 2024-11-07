@@ -29,7 +29,7 @@ public class L4Q3 {
         }
 
         double avg = sum / n;
-        double var = (dsum - Math.pow(sum, 2) / n) / (double) (n - 1);
+        double var = (dsum - (Math.pow(sum, 2) / n)) / (n - 1);
         double std = Math.sqrt(var);
         
         System.out.println("Minimum Score: " + min);

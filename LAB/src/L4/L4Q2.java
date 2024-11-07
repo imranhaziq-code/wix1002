@@ -9,12 +9,15 @@ public class L4Q2 {
         System.out.print("Enter an integer: ");
         int num = keyboard.nextInt();
         
-        int series, sumSeries=0;
+        int sum1 = 0, sum2 = 0;
         
-        for (int i = 1; i <= num; i++){
-            sumSeries += (i*(i+1))/2;
+        for (int i = 0; i <= num; i++){
+            for (int j = 0; j < i; j++){
+                sum2 += j;
+            }
+            sum1 += i;
         }
         
-        System.out.println("Sum of series: "+sumSeries);
+        System.out.println("Sum of series: "+(sum1 + sum2));
     }
 }

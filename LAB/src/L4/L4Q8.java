@@ -12,10 +12,8 @@ public class L4Q8 {
         while (true){
             num = g.nextInt(min, max);
             if (num % num == 0){
-                System.out.println("Random integer: "+num);
-            }
-            else{
-                continue;
+                System.out.println("Random prime integer: "+num);
+                break;
             }
         }
     }

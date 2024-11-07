@@ -11,10 +11,13 @@ public class L4Q6 {
             num = g.nextInt();
             if (num > 0){
                 System.out.println("Random integer: "+num);
-            }
-            else{
-                continue;
+                break;
             }
         }
+        
+        String str = String.valueOf(num);
+        System.out.print("Number of digit in the integer: "+str.length());
+        System.out.println("");
+        
     }
 }

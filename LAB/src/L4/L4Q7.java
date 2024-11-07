@@ -5,7 +5,8 @@ import java.util.Scanner;
 public class L4Q7 {
     public static void main(String[] args) {
         Scanner keyboard = new Scanner(System.in);
-        double M, P, i, C, L, R, totalInterest = 0.0; int N = 0;
+        double M, P, i, C, L, R, totalInterest = 0.0; 
+        int N;
 
         System.out.print("Enter principal amount: ");
         P = keyboard.nextDouble();
