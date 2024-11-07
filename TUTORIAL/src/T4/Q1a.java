@@ -7,6 +7,6 @@ public class Q1a {
         while ((n * n * n) < 2000){
             n++;
         }
-        System.out.println("Largest integer n: "+n);
+        System.out.println("Largest integer n: "+(n-1));
     }
 }
