@@ -76,7 +76,7 @@ public class T6Q1 {
             return randomNum;  // Return the first number that is generated twice
         }
     }
-    
+   
     
 }
 }
