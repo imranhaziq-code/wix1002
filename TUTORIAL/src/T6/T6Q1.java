@@ -53,6 +53,7 @@ public class T6Q1 {
         Random rand = new Random();
         for (int i = 0; i < 10; i++) {
             numbers[i] = rand.nextInt(101);
+            System.out.println(numbers[i]);
         }
     }
     //Q1g
@@ -75,6 +76,8 @@ public class T6Q1 {
             return randomNum;  // Return the first number that is generated twice
         }
     }
+    
+    
 }
 }
 
