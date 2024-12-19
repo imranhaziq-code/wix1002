@@ -49,7 +49,7 @@ public class V2Q3 {
         String[] books = new String[10];  // Array for up to 10 books
         String[] authors = new String[10]; // Array for up to 10 authors
         int bookCount = 0;  // Keeps track of the number of books in the system
-
+        
         do {
             // Display menu
             System.out.println("\nChoose an action:");
@@ -89,6 +89,9 @@ public class V2Q3 {
                 default:
                     System.out.println("Invalid choice, try again.");
             }
+            
+
+            
         } while (choice != 4); 
     }
 }
