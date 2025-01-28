@@ -1,4 +1,4 @@
-package l1q4;
+package L1;
 
 public class L1Q4 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package l1q2;
+package L1;
 
 public class MyProfile {
     public static void main(String[] args) {
