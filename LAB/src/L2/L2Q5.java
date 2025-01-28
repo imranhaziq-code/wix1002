@@ -1,4 +1,4 @@
-package l2q5;
+package L2;
 
 import java.util.Random;
 

@@ -1,4 +1,4 @@
-package l2q1;
+package L2;
 
 import java.util.Scanner;
 

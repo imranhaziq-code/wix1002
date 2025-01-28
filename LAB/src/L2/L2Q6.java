@@ -1,4 +1,4 @@
-package l2q6;
+package L2;
 
 import java.util.Scanner;
 import java.text.DecimalFormat;
