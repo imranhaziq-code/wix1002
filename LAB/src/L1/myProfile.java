@@ -1,6 +1,6 @@
 package L1;
 
-public class MyProfile {
+public class myProfile {
     public static void main(String[] args) {
         System.out.println("Name:               Imran Haziq Bin Khairul Anuar");
         System.out.println("Matric Number:      23001784/2");
