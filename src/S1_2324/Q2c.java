@@ -5,16 +5,14 @@ import java.io.*;
 
 public class Q2c {
     public static void main(String[] args) {
-        // Create an array of Playable objects
         Playable[] instruments = new Playable[2];
         
-        // Initialize the array with Guitar and Piano instances
         instruments[0] = new Guitar();
         instruments[1] = new Piano();
         
-        // Iterate through the array and invoke the play() method on each object
-        for (Playable instrument : instruments) {
-            instrument.play(); // Polymorphism in action
+        for (int i = 0; i < instruments.length; i++) {
+            Playable instrument = instruments[i];
+            instrument.play();
         }
     }
 }
